@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genbaa Clothes</title>
+    <style>
+        body {
+            background-color: #d6e5f6;
+            background-image: url('https://images.unsplash.com/photo-1525562723836-dca67a71d5f1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        header {
+            padding: 20px;
+        }
+        button {
+            padding: 10px;
+            margin: 5px;
+            border: none;
+            background-color: #556cd6;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #4053a9;
+        }
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        img {
+            margin: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2 style="color: rgb(145, 158, 237);">Genbaa Clothes</h2>
+        <button>Home</button>
+        <a href="https://github.com/paudelrajan007" target="_blank">
+            <button>About Us</button>
+        </a>
+    </header>
+    
+    <main>
+        <label for="category">Choose a category:</label>
+        <select id="category">
+            <option value="tshirt">T-shirt</option>
+            <option value="shoes">Shoes</option>
+            <option value="jeanspant">Jeans Pant</option>
+            <option value="shirt">Shirt</option>
+            <option value="jeansshirt">Jeans Shirt</option>
+        </select>
+        
+        <div>
+            <img height="150" width="150" src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="T-shirt">
+            <img height="150" width="150" src="https://images.unsplash.com/photo-1609709295948-17d77cb2a69b?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Shoes">
+            <img height="150" width="150" src="https://plus.unsplash.com/premium_photo-1675186049547-2842e30f12e6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Jeans Pant">
+            <img height="150" width="150" src="https://images.unsplash.com/photo-1591213954196-2d0ccb3f8d4c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Shirt">
+        </div>
+        
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>T-shirt</td>
+                <td>$20</td>
+            </tr>
+            <tr>
+                <td>Shoes</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>Jeans Pant</td>
+                <td>$40</td>
+            </tr>
+            <tr>
+                <td>Shirt</td>
+                <td>$30</td>
+            </tr>
+            <tr>
+                <td>Jeans Shirt</td>
+                <td>$35</td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <button>Contact Us</button>
+    </footer>
+</body>
+</html>
