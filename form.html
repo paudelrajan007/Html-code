@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form in Html </title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form in Html</title>
+  </head>
+  <body>
     <form>
-        <label for="email">
-            email:
-            <input type="text" name="email">
-        </label>
-        <label for="password"></label>
-        password:
-        <input type="password" name="password">
-        <button type="submit">submit</button>
+      <label for="email">
+        email:
+        <input type="text" name="email" />
+      </label>
+      <label for="password"></label>
+      password:
+      <input type="password" name="password" />
+      <button type="submit">submit</button>
 
-        <div>
-            <h2>
-                learning form
-            </h2>
-            <form>
-               <label for="email">
-                Email:
-                <input type="email" name="email" id="">
-                <button type="submit">submit</button>
-               </label>
-               <textarea name="textarea" id="text"> </textarea>
-               <input type="checkbox" name="checkbox" id="">
-
-            </form>
-        </div>
+      <div>
+        <h2>learning form</h2>
+        <form>
+          <label for="email">
+            Email:
+            <input placeholder="email" type="email" name="email" fix id="" />
+            <button type="submit">submit</button>
+          </label>
+          <textarea rows="10" cols="10" name="textarea " id="text"> </textarea>
+          <input type="checkbox" name="checkbox" id="" />
+          <label for="month">
+            <input type="month" />
+          </label>
+          <label for="fruits">
+            <select name="fruits" id="">
+              <option value="option">orange</option>
+              <option value="option">mango</option>
+              <option value="option">banana</option>
+            </select>
+          </label>
+        </form>
+      </div>
     </form>
-    
-</body>
+  </body>
 </html>
