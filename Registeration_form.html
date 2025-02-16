@@ -1,0 +1,55 @@
+<!-- Registration form -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <style>
+      body {
+        background-color: lightsteelblue;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h1 style="text-align: center"><u> Registration form </u></h1>
+      <label for="First Name"> First Name :</label>
+      <input type="text" />
+      <br />
+      <label for="Last Name">Last Name :</label>
+      <input type="text" />
+      <br />
+      <label for="Name">Full Name : </label>
+      <input type="text" id="name" />
+      <br />
+      <label for="Email">Email :</label>
+      <input type="email" name="email" id="email" />
+      <br />
+      <label for="password"> Password</label>
+      <input type="password" name="password" id="password" />
+      <br />
+      <label for="Dob">Date of Birth :</label>
+      <input type="date" name="date" id="date" />
+      <br />
+      <label for="gender">Gender :</label>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="female">Femail</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="other">Other</label>
+      <input type="radio" id="other" name="gender" value="other" />
+      <br />
+      <label for="number">Phone Number : </label>
+      <input type="number" id="number" />
+
+      <label for="Address">Address : </label>
+      <textarea name="Address" id="Address"></textarea>
+      <label for="color">Favorite color</label>
+      <input type="color" name="color" id="color" />
+      <button type="submit " id="submit">Submit</button>
+      <button type="reset" id="reset">Reset</button>
+    </form>
+  </body>
+</html>
